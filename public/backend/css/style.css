@@ -1,0 +1,94 @@
+/*------- General CSS
+box shadow
+
+---------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.swal2-popup.swal2-modal.swal2-show {
+    width: 23%;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#swal2-title {
+    padding-top: 8px;
+}
+
+
+/*---------- Admin Home --------*/
+
+.app-page-title {
+    padding: 10px 20px;
+}
+
+.admin-home .card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
+    border-radius: 9px;
+}
+
+.admin-home .card img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.admin-home .card .user-left {
+    border-left: #7371fc solid 3px;
+}
+
+.admin-home .card .admin-left {
+    border-left: #CE2D4F solid 3px;
+}
+
+.admin-home span {
+    font-size: 18px;
+}
+
+#admin-user thead {
+    background-color: #7371fc;
+    color: #fff;
+}
+
+#user thead {
+    background-color: #7371fc;
+    color: #fff;
+}
+
+#user_wallet thead {
+    background-color: #7371fc;
+    color: #fff;
+}
+
+.app-page-title {
+    margin: -30px -30px 10px;
+}
+
+.admin-table-css .btn {
+    font-size: 1.1em !important;
+}
+
+.admin-table-css .col-6 {
+    padding: 0;
+}
+
+@media(max-width: 786px) {
+    .admin-table-css .btn {
+        font-size: 0.9em !important;
+    }
+}
+
+
+/*----------- Admin Create ------------*/
+
+.custom-btn {
+    width: 100%;
+    font-size: 16px;
+}
+
+.custom-card {
+    border-radius: 10px;
+}
