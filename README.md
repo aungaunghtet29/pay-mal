@@ -18,7 +18,8 @@ Mobile Responsive
 
 Admin Panel 
 
-![Screenshot from 2021-09-14 19-30-11](https://user-images.githubusercontent.com/38067432/133264284-1f295d74-620e-447a-81c8-cfa00995c5fa.png)
+![Screenshot from 2021-09-14 19-47-17](https://user-images.githubusercontent.com/38067432/133264616-7edfa455-fd4c-4402-8024-13b09ba721b4.png)
+
 
 
 
