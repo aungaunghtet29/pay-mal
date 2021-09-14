@@ -166,7 +166,10 @@
     </script>
     <script src="sweetalert2.all.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
+
+    <script src="{{ asset('frontend/js/jquery.jscroll.min.js') }}"></script>
+    <script src="jquery.jscroll.min.js"></script>
+<script>
         $(document).ready(
             function() {
                 $.ajaxSetup({

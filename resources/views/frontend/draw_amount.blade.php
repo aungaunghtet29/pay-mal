@@ -49,7 +49,7 @@
                 Swal.fire({
                     title: '<p>{{ __('messages.enter_password') }}</p>',
                     icon: 'info',
-                    html: '<input type="password" class="form-control" name="password">',
+                    html: '<input type="password" class="form-control" name="password" autofocus>',
                     showCancelButton: true,
                     reverseButtons: true,
                     confirmButtonText: "{{ __('messages.confirm') }}",

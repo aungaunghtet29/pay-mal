@@ -168,7 +168,7 @@ class PageController extends Controller
     public function transcation()
     {
         $user = Auth::user();
-        $transcations = Transcation::with('userTranscation', 'transcationSource')->where('user_id', $user->id)->orderBy('created_at', 'DESC')->paginate(10);
+        $transcations = Transcation::with('userTranscation', 'transcationSource')->where('user_id', $user->id)->orderBy('created_at', 'DESC')->paginate(3);
 
         return view('frontend.transcation', compact('transcations', 'user'));
     }

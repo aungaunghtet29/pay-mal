@@ -12,41 +12,41 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
 primary color - c9184a
 ----------*/
     /*--------   Auth Form --------*/
-    
+
     html {
         scroll-behavior: smooth;
     }
-    
+
     body {
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     .custom-card {
         border-radius: 9px;
         padding: 12px 12px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
-    
+
     .custom-card a {
         color: #333;
         text-decoration: none;
     }
-    
+
     .custom-card a:hover {
         color: #c9184a;
     }
-    
+
     .custom-btn {
         width: 100%;
         padding: 4px 0px;
     }
-    
+
     .btn-link {
         padding: 0px;
     }
     /*-------- Header Menu ------*/
-    
+
     .header-menu {
         position: fixed;
         top: 0;
@@ -58,33 +58,33 @@ primary color - c9184a
         z-index: 999;
         background-color: #fff;
     }
-    
+
     .header-menu h3 {
         font-size: 22px;
         margin-bottom: 0;
     }
-    
+
     .header-menu i {
         font-size: 20px;
     }
-    
+
     .header-menu a {
         text-decoration: none;
         color: #333;
     }
-    
+
     .header-menu a:hover {
         text-decoration: none;
         transition: .3s;
         color: #c9184a;
     }
     /*-------- Bottom Menu ------*/
-    
+
     .row.justify-content-center.bottom-content {
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .bottom-menu {
         position: fixed;
         right: 0;
@@ -93,41 +93,41 @@ primary color - c9184a
         box-shadow: rgba(0, 0, 0, 0.16) -1px -2px 6px;
         background-color: #fff;
     }
-    
+
     .bottom-menu p {
         margin-bottom: 10px;
         font-size: 12px;
     }
-    
+
     .bottom-menu i {
         margin-top: 10px;
         font-size: 18px;
     }
-    
+
     .bottom-menu a {
         text-decoration: none;
         color: #333;
         display: block;
     }
-    
+
     .bottom-menu a:hover {
         text-decoration: none;
         transition: .3s;
         color: #c9184a;
     }
     /*------- Main -------*/
-    
+
     .main .row {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
-    
+
     .main {
         margin-top: 75px;
         margin-bottom: 75px;
     }
     /*---------- Home ---------*/
-    
+
     @media (max-width: 768px) {
         .home .card-body {
             padding: 20px 0px;
@@ -140,37 +140,37 @@ primary color - c9184a
             font-size: 13px !important;
         }
     }
-    
+
     .home .card a {
         text-decoration: none;
         color: #333;
     }
-    
+
     .home .card a:hover {
         text-decoration: none;
         color: #c9184a;
         transition: .3s;
     }
-    
+
     .home span {
         font-size: 15px;
     }
-    
+
     .home h4 {
         margin-bottom: 0px;
     }
-    
+
     .home .inside-img img {
         width: 30px;
         height: 30px;
         margin-right: 15px;
     }
-    
+
     .home .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
-    
+
     .home .account img {
         border-radius: 50%;
         width: 50px;
@@ -179,47 +179,47 @@ primary color - c9184a
         box-shadow: rgba(0, 0, 0, 0.16) 3px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border: 1p solid #c9184a;
     }
-    
+
     .home .flex-img img {
         width: 30px;
         height: 30px;
         margin-right: 5px;
     }
-    
+
     .home .flex-img a {
         color: #333;
         text-decoration: none;
     }
-    
+
     .home .flex-img a:hover {
         color: #c9184a;
         text-decoration: none;
         transition: .3s;
     }
     /*---------- Wallet ---------*/
-    
+
     .wallet .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
-    
+
     .wallet .card p {
         margin-top: 7px;
         font-size: 17px;
         font-weight: 700;
     }
-    
+
     .wallet .card h4 {
         margin-top: 7px;
         font-size: 26px;
         font-weight: 700;
     }
-    
+
     .wallet .card span {
         font-size: 17px;
     }
     /*---------- Transcation ------*/
-    
+
     @media(max-width: 768px) {
         .flex.items-center.justify-between {
             text-align: center;
@@ -232,128 +232,138 @@ primary color - c9184a
             font-size: 14px !important;
         }
     }
-    
+
     svg {
         width: 18px !important;
     }
-    
+
     .hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between {
         padding: 16px 0px;
     }
-    
+
     .flex.items-center.justify-between {
         text-align: center;
     }
-    
+
     .transcation .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
-    
+
     .transcation span {
         font-size: 15px;
     }
-    
+
     .transcation h4 {
         margin-bottom: 0px;
     }
-    
+
     .transcation .card a {
         text-decoration: none;
     }
-    
+
     .transcation .card a:hover {
         text-decoration: none;
         transition: .3s;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
     }
-    
+
     .transcation-detail .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
-    
+
     .transcation-detail .check img {
         width: 60px;
         height: 60px;
     }
+
+    .infinite-scroll a {
+        text-decoration: none;
+    }
+
+    .infinite-scroll a:hover {
+        text-decoration: none;
+        transition: .3s;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
+    }
     /*---------- Transfer ---------*/
-    
+
     .transfer .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
-    
+
     .transfer .btn-color {
         background-color: #c9184a;
         color: #fff;
     }
-    
+
     .transfer .btn-color:hover {
         color: #fff;
         background-color: #d90429;
         transition: .3s;
     }
-    
+
     .transfer .card p {
         margin-bottom: 3px;
     }
-    
+
     .transfer .transfer_to {
         text-transform: uppercase;
     }
-    
+
     .swal2-title {
         font-size: 22px !important;
         font-weight: 500 !important;
     }
-    
+
     .swal2-title p {
         margin-bottom: 0px !important;
     }
-    
+
     .swal2-styled.swal2-confirm {
         background-color: #c9184a !important;
     }
-    
+
     .swal2-cancel.swal2-styled {
         padding: 10px 30px !important;
     }
-    
+
     .swal2-confirm.swal2-styled {
         padding: 10px 30px !important;
     }
-    
+
     .swal2-styled {
         margin: 15px !important;
     }
-    
+
     .swal2-container.swal2-center>.swal2-popup {
         border-radius: 9px !important;
     }
-    
+
     .swal2-icon.swal2-info {
         border-color: #c9184a !important;
         color: #d90429 !important;
     }
-    
+
     .swal2-icon {
         margin: 1.5em auto .6em !important;
     }
-    
+
     @media(max-width: 768px) {
         .swal2-popup.swal2-modal.swal2-show {
             width: 85% !important;
         }
     }
     /*--------- Account ----------*/
-    
+
     @media(max-width: 768px) {
         .account span {
             font-size: 14px !important;
         }
     }
-    
+
     .account .profile img {
         width: 100px;
         border-radius: 50%;
@@ -362,51 +372,51 @@ primary color - c9184a
         background-color: #fff;
         box-shadow: rgba(0, 0, 0, 0.16) 3px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
     }
-    
+
     .account .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
-    
+
     .account a {
         text-decoration: none;
         color: #333;
     }
-    
+
     .account a:hover {
         text-decoration: none;
         color: #c9184a;
         transition: .3s;
     }
-    
+
     .swal2-popup.swal2-modal.swal2-show {
         width: 23%;
     }
     /*---------- Change Password -------*/
-    
+
     .change-password .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
-    
+
     .change-password .btn-color {
         background-color: #c9184a;
         color: #fff;
     }
-    
+
     .change-password .btn-color:hover {
         color: #fff;
         background-color: #d90429;
         transition: .3s;
     }
     /*------- Langugae --------*/
-    
+
     .language .card {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
         border-radius: 9px;
     }
     /*-------- Scan ------*/
-    
+
     .scan-tab {
         width: 60px;
         height: 60px;
@@ -420,7 +430,7 @@ primary color - c9184a
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         animation: jump 2s 3 ease-in-out;
     }
-    
+
     .scan-tab .inside i {
         display: flex;
         text-align: center;
@@ -429,7 +439,7 @@ primary color - c9184a
         margin-top: 18px;
         font-size: 23px;
     }
-    
+
     @keyframes jump {
         0% {
             transform: translate3d(0, 0, 0)
